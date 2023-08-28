@@ -1,0 +1,7 @@
+import com.github.osvaldsoza.Empregado
+
+model {
+	Empregado empregado
+}
+
+json g.render(empregado, [resolveTemplate: false])

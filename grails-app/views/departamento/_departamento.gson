@@ -1,0 +1,7 @@
+import com.github.osvaldsoza.Departamento
+
+model {
+	Departamento departamento
+}
+
+json g.render(departamento, [resolveTemplate: false])

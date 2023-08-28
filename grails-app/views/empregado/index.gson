@@ -1,0 +1,8 @@
+import com.github.osvaldsoza.Empregado
+
+model {
+	Iterable<Empregado> empregadoList
+}
+
+json tmpl.empregado(empregadoList ?: [])
+

@@ -1,0 +1,8 @@
+import com.github.osvaldsoza.Departamento
+
+model {
+	Iterable<Departamento> departamentoList
+}
+
+json tmpl.departamento(departamentoList ?: [])
+
